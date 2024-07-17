@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cy:run": "DEBUG=cypress:*,-cypress:server:config npx cypress run > debug.log 2>&1 --record --parallel"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.13.0"
+    "cypress": "^13.13.1"
   }
 }
